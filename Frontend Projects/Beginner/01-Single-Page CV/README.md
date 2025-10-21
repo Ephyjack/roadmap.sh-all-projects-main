@@ -1,5 +1,5 @@
 # Single Page CV
-It is part of the **Frontend Developer Roadmap[roadmap.sh](https://roadmap.sh/projects/single-page-cv).
+It is part of the **Frontend Developer Roadmap [Single-Page CV](https://roadmap.sh/projects/single-page-cv).
 
 ---
 
