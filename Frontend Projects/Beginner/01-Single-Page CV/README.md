@@ -21,7 +21,7 @@ It demonstrates proper use of:
 
 ## 🌐 Project URL
 You can view the project folder here:  
-👉 [Single Page CV on GitHub](https://github.com/Ephyjack/roadmap.sh-all-projects-main/tree/main/Frontend%20Projects/Beginner/01-Single-Page%20CV/)
+👉 [Single Page CV on GitHub](https://github.com/Ephyjack/roadmap.sh-all-projects-main/tree/main/Frontend%20Projects/Beginner/01-Single-Page%20CV/index.html)
 
 ---
 
