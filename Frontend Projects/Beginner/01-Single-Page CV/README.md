@@ -1,12 +1,17 @@
 # Single Page CV
 
 This is a simple HTML-only project that showcases a single-page CV layout.  
-It is part of the **Frontend Developer Roadmap (Beginner Projects)** from [roadmap.sh](https://roadmap.sh/projects/single-page-cv).
+# Single Page CV
+
+This is my solution for the roadmap.sh project: **Single Page CV**
+
+🔗 Project URL: https://roadmap.sh/projects/single-page-cv
+
 
 ---
 
 ## 🧱 Project Description
-This project was built using only **HTML**, with no external CSS or JavaScript.  
+This project was built using only **HTML**, with css for font editing and color.  
 It demonstrates proper use of:
 - Semantic HTML structure  
 - Basic layout organization  
