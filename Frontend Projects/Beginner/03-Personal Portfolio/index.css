@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px){
+    *{
+        display:block;
+        text-align: center;
+    }
+    .main-links a{
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+
+    }
+}
+
+/* @media (max-width: 480px){
+    .main-links a{
+    }
+} */
