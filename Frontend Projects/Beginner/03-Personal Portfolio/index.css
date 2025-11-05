@@ -1,34 +1,89 @@
-*{
-    box-sizing: border-box;
-    
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* padding: 0; */
 }
 
-@media (max-width: 768px){
+/* General body style */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Center main layout */
+.main-table {
+  width: 80%;
+  margin: 20px auto;
+  /* border-collapse: collapse; */
+}
+
+td {
+  padding: 10px;
+  /* border: 1px solid #333; */
+  vertical-align: top;
+}
+
+/* Navigation links */
+.main-links a {
+  text-decoration: none;
+  color: blue;
+  margin-left: 5px;
+}
+
+/* Make text inside look better */
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+em {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
     *{
-        display:grid;
-        /* text-align: center; */
-        margin: 0;   
+        display: grid;
     }
-    body{
-        /* text-align: center; */
-    }
-    .main-links a{
-        margin-top: 10px;
-        justify-content: center;
-    }
-    .main-links{
-        display: flex;
-        justify-content: center;
-        gap: 5px;
-    }
-    .list{
-        justify-content: left;
-        list-style-type: circle;
-    }
-    h5{
-        text-align: center;
-    }
-    p{
-        text-align: left;
-    }
+  body {
+    padding: 10px;
+  }
+
+  .main-table {
+    width: 100%;
+  }
+
+  /* Make nav links center on mobile */
+  .main-links {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 10px;
+  }
+
+  /* Make tables stack nicely */
+  table, tr, td {
+    /* display: block; */
+    width: 100%;
+  }
+
+  /* Remove inner table borders on mobile for cleaner look */
+  .last-table td {
+    /* border: 1px solid #ccc; */
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  div{
+    justify-content: center;
+    align-items: center;
+  }
 }
